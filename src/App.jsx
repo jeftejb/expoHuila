@@ -7,7 +7,7 @@ import Locais from "./pages/Locais/Locais"
 
 const  App = ()=>{
   return (
-       
+          <Router>
            <Routes>
           <Route  path="/" element={<Home/>}/>
           <Route  path="/huila" element={<Huila/>}/>
@@ -15,6 +15,7 @@ const  App = ()=>{
           <Route  path="/local" element={<Local/>}/>
           <Route  path="/locais" element={<Locais/>}/>
           </Routes>
+          </Router>
 
     
   )
